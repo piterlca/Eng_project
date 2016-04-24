@@ -1,0 +1,5 @@
+1. Znieksztalcenie harmoniczne sygnalu wyjściowego systemu w stanie oscylacji wynikalo z opoznienia w dzialaniu PID o jedna probke. To z kolei 
+ z blednego kodu.
+2. Metoda ZN daje spodziewane efekty (zblizone do tych w ksiazce) lacznie z dzwonieniem na wyjściu.
+3. Problemy z relay tuningiem (zbyt male opoznienie fazowe) wynika prawdopodobnie ze skonczonego czasu probkowania, a nie z defektow systemu. Analiza ujawnia, ze relay przelacza sie zbyt pozno.
+4. Po rozwiązaniu tego problemu pojawiło się kilka innych. Mimo że dla filtrów o niskiej częstotliwości odcięcia udaj się otrzymać przesunięcie fazowe 180 stopni, współczynniki otrzymane po kalkulacjach są dalekie od optymalności. Należy sprawdzić czy winny nie jest zbyt bliski ideałowi model. Jeśli to nie poskutkuje, warto rozważyć stosowanie innego modelu.
